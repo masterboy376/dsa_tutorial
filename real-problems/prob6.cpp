@@ -28,5 +28,17 @@ int main()
     }
     cout<<max_sum<<endl;
 
+    // Kadane's algorithm -O(n)
+    int currSum = 0;
+    int maxSum = INT8_MIN;
+    for(int i = 0; i<n; i++){
+        currSum += a[i];
+        if(currSum<0){
+            currSum = 0;
+        }
+        maxSum = max(maxSum , currSum);
+    } 
+    cout<<maxSum<<endl;
+
     return 0;
 }
