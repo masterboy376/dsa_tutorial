@@ -1,31 +1,28 @@
 #include <iostream>
 using namespace std;
 
-//palindrome
+// largest word length in string
 
 int main()
 {
     string s;
-  cout << "Type your full name: ";
-  getline (cin, s);
-  cout << "Your name is: " << s;
+    cout << "Type your full name: ";
+    getline(cin, s);
 
-    int i = 0;
-    int j = 1;
+    int j = 0;
     int m = 0;
-    while (s[i]!='\n')
-    {
-        if(s[i]=' '){
-            j=0;
-            i++;
+    for (int i = 0 ; i<s.size(); i++){
+        if (s[i] == ' ')
+        {
+            j = 0;
         }
+        else{
         j++;
-        m = max(m,j);
-        i++;
+        m = max(m, j);
+        }
     }
 
     cout<<m<<endl;
-    
 
     return 0;
 }
