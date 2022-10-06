@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// spiral printing of matrix
+
 int main()
 {
     int m, n;
