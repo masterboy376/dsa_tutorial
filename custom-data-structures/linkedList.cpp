@@ -68,7 +68,7 @@ void remove(node *&head, int val)
 {
     if (head != NULL)
     {
-        if ((head->data == val)||(head->next==NULL))
+        if ((head->data == val) || (head->next == NULL))
         {
             removeHead(head);
             return;
@@ -91,6 +91,35 @@ void remove(node *&head, int val)
     }
 }
 
+node* reverseIterative(node *&head)
+{
+    node *prev = NULL;
+    node *curr = head;
+    node *next;
+
+    while (curr != NULL)
+    {
+        next = curr->next;
+        curr->next = prev;
+
+        prev = curr;
+        curr = next;
+    }
+    return prev;
+}
+
+node* reverseRecursive(node *&head)
+{
+    if(head==NULL || head->next==NULL){
+        return head;
+    }
+
+    node* newHead = reverseRecursive(head->next);
+    head->next->next=head;
+    head->next=NULL;
+    return newHead;
+}
+
 int main()
 {
     node *head = NULL;
@@ -103,6 +132,10 @@ int main()
     remove(head, 5);
     display(head);
     push(head, 5);
+    display(head);
+    head = reverseIterative(head);
+    display(head);
+    head = reverseRecursive(head);
     display(head);
 
     return 0;
