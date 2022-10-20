@@ -45,6 +45,8 @@ quicksort
 mergesort
 countsort
 dnf-sort
+wave-sort
+count-inversion
 reduce-an-array
 prob1
 prob2
@@ -86,3 +88,4 @@ prob37
 prob38
 prob39
 prob40
+linkedList
