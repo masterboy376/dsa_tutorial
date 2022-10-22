@@ -99,3 +99,9 @@ evaluatePostfix
 infixToPostfix
 infixToPrefix
 balacedParenthesis
+queueUsingArray
+queueUsingLinkedList
+queueUsingStack
+stackUsingQueue
+slidingWindowMax
+largestRectangle
