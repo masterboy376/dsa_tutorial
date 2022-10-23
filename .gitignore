@@ -105,3 +105,9 @@ queueUsingStack
 stackUsingQueue
 slidingWindowMax
 largestRectangle
+rainWaterHarvestingProblem
+redundantParentheses
+stockSpanProblem
+threeSumProblem
+maxConsecutiveOnes
+longestSubstringWithoutRepeatingChar
