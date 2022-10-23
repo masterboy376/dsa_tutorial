@@ -35,7 +35,7 @@ public:
             front = n;
             return;
         }
-        back->next = NULL;
+        back->next = n;
         back = n;
     }
     void pop()
