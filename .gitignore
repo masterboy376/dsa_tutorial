@@ -111,3 +111,6 @@ stockSpanProblem
 threeSumProblem
 maxConsecutiveOnes
 longestSubstringWithoutRepeatingChar
+binaryTree
+treeFromPreAndInorder
+treeFromPostAndInorder
