@@ -10,7 +10,7 @@
 		"scope": "cpp,c++",
 		"prefix": "start",
 		"body": [
-			"#include <iostream>",
+			"#include \"bits/stdc++.h\"",
 			"using namespace std;",
 			"",
 			"int main()",

@@ -114,3 +114,9 @@ longestSubstringWithoutRepeatingChar
 binaryTree
 treeFromPreAndInorder
 treeFromPostAndInorder
+levelOrderTraversel
+countAllTheNodesInBT
+sumAllTheNodesInBT
+heightOfBT
+diameterOfBT
+sumReplacementInBT
