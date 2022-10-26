@@ -120,3 +120,6 @@ sumAllTheNodesInBT
 heightOfBT
 diameterOfBT
 sumReplacementInBT
+heightOfBalancedBT
+rightViewInBT
+leftViewInBT
