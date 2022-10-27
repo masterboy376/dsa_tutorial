@@ -123,3 +123,6 @@ sumReplacementInBT
 heightOfBalancedBT
 rightViewInBT
 leftViewInBT
+minDistanceBtwTwoNodes
+flattenBTIntoPreorderLinkedList
+allNodesAtDisK
