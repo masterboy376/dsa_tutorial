@@ -57,6 +57,14 @@ void inTraversal(node *root)
     }
 }
 
+/*
+            1
+           / \
+          2   3
+         /   /
+        4   5
+*/
+
 int main()
 {
     vector<int> pre = {1, 2, 4, 3, 5};
