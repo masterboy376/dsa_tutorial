@@ -50,13 +50,6 @@ void inTraversal(node *root)
     }
 }
 
-/*
-            10
-          /    \
-        5       15
-       / \     
-      3   9
-*/
 
 int main()
 {
