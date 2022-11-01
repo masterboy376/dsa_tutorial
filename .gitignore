@@ -133,3 +133,7 @@ BSTFromPreorder
 checkForBST
 BSTFromSortedArray
 catalanNumbers
+zigZagTraversal
+identicalBST
+largestBSTInTree
+restoreBST
