@@ -41,8 +41,8 @@ void calcPointers(node *root, node** first, node** mid, node** last, node** prev
         else{
             *last = root;
         }
-        *prev = root;
     }
+    *prev = root;
     calcPointers(root->right, first, mid, last, prev);
 }
 
