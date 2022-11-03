@@ -141,3 +141,7 @@ set
 multiset
 unorderedset
 placeElementToMaxMinDistance
+pageAllocationProblem
+painterPartitionProblem
+searchInSortedAndRotatedArray
+findPeakInArray
