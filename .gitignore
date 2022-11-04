@@ -145,3 +145,6 @@ pageAllocationProblem
 painterPartitionProblem
 searchInSortedAndRotatedArray
 findPeakInArray
+maxSumSubarray
+minSubarraySize
+formNumDivBy3
