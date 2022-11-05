@@ -148,3 +148,5 @@ findPeakInArray
 maxSumSubarray
 minSubarraySize
 formNumDivBy3
+subarrayWithPalindromeConcatination
+perfectNumInSubarray
