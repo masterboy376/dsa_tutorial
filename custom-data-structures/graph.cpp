@@ -23,9 +23,40 @@ graphs:
  tree) of that node.
 -post-order: after working on the subtree, call comes 
  back to the node. comes on the same node.
+
+-degree of vertex:
+  -indegree: no. of incoming edges.
+  -outdegree: no. of outgoing edges.
+
+-path between two vertices: all vertices in the path of 
+ two given vertices.
+
+-connected graph: each node has path from every other 
+ node.
+-disconnected graph: each node does not have path from 
+ every other node.
+-connected component: each connected graph in a 
+ disconnected graph is called a connected component.
+
+-cycle: path from a vertex to the same vertex in a graph 
+ is known as cycle.
+-cyclic: graph that contain cycle.
+-acyclic: graph that do not contain cycle.
+
+-tree: is a connected acyclic graph.
+
+-DAG(directed acyclic graph): acyclic graph with all 
+ directed edges.
+
+-complete graph: graph in which each vertex is connected 
+ to every other vertex by a directed edge. (no. of edges 
+ here is nC2).
+
+-weighed graph: graph with weighted edges.
+
 */
 
 int main() {
-
+  
   return 0;
 }
