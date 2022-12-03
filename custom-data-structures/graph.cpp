@@ -15,8 +15,8 @@ graphs:
   -adjacency list: array of list, where each a[i] is a       list of nodes x<i> that are reachable from i.
 
 -searching:
-  -depth first search:
-  -breath first search:
+  -depth first search: recursion
+  -breath first search: queue
 
 -pre-order: first time when call comes on the node.
 -in-order: when the call works inside the sebtree (in DFS 
