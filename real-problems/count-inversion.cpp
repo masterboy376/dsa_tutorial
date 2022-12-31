@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//O(nlogn)
 long long merge(int a[], int l, int mid, int r){
     long long inv=0;
     int i, j, k, b[l+r+1];
