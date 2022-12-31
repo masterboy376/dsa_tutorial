@@ -11,6 +11,8 @@ inversion count using fenwick tree - solve negative numbe problem by using
 relative ordering
 */
 
+//O(nlogn)
+
 const int N = 1e5 + 2;
 vector<int> bit;
 
