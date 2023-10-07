@@ -1,10 +1,3 @@
-
-#include <bits/stdc++.h>
-#include <iostream>
-
-using namespace std;
-
-/*
 dynamic programming : 
 -those who do not remember their past are condemned to repeat it.
 -if we can solve smaller problem then we can use its learning to solve bigger problem.
@@ -22,9 +15,3 @@ involved.
 2. "find the number of ways" is also a very popular type of dp problems.
 3. whereever we can form a recurrence relation or given in question can be solved using dp. (sometimes with matrix exponentiation.)
 
-*/ 
-
-int main() {
-  
-  return 0;
-}
