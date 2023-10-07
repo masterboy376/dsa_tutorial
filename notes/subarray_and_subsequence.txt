@@ -1,0 +1,4 @@
+1. subarray-> continous slice of an array, total number= nC2 + n
+2. subsequence-> NON-continous slice of an array but in sequence, total number= 2^n
+
+note:-> every subarray in a subsequence but vise-versa is false
