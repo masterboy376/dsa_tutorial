@@ -1,3 +1,6 @@
-1. Recurrence relation: is an equation that recursively defines a sequence. for eg: F(n) = F(n-1)+F(n-2)
-2. Master Theorm: gives time complexity for the recurrence relation T(n) = aT(n/b) + f(n)
+Recurrence relation: is an equation that recursively defines a sequence. for eg: F(n) = F(n-1)+F(n-2)
+Master Theorm: gives time complexity for the recurrence relation T(n) = aT(n/b) + O(n)
 - There are 3 cases
+1. if f(n) = O(n^c), where c < log(a)base(b) then t(n) = O(n^(log(a)base(b))
+2. if f(n) = O(n^c), where c = log(a)base(b) then t(n) = O((n^c)(log(n)base(e))
+3. if f(n) = O(n^c), where c > log(a)base(b) then t(n) = O(f(n))
